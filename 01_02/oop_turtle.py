@@ -7,7 +7,8 @@ my_turtle.shape("turtle")
 my_turtle.color("red")
 
 # Your turtle awaits your command
-my_turtle.forward(100)  # Sample command
+my_turtle.forward(100)  # Sample commandmy
+my_turtle.circle(50)
 
 # This statement (or an equivalent) is needed at the end of all your turtle programs.
 turtle.done()
