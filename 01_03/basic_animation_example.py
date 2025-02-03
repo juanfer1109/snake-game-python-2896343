@@ -19,12 +19,12 @@ screen = turtle.Screen()
 screen.setup(WIDTH, HEIGHT)  # Set the dimensions of the Turtle Graphics window.
 screen.title("Turtle Animation")
 screen.bgcolor("cyan")
+screen.tracer(0)  # Turn off automatic animation
 
 # Create a turtle to do your bidding
 my_turtle = turtle.Turtle()
 my_turtle.shape("turtle")
 my_turtle.color("red")
-screen.tracer(0)  # Turn off automatic animation
 
 # Set animation in motion
 move_turtle()
